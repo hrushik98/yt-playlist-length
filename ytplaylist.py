@@ -4,7 +4,7 @@ import math
 import streamlit.components.v1 as components
 st.title("YouTube Playlist Time Calculator")
 st.write(
-    "Enter the URL of any YT playlist and find out the time it takes for for you to watch it at 1x, 1.5x and 2x speeds!"
+    "Enter the URL of any YT playlist and find out the time it takes for you to watch it at 1x, 1.5x and 2x speeds!"
     
     )
 st.text("Created by @hrushik98 (github) / @hrush1k (insta) / Phani Hrushik Reddy (LinkedIN)")
