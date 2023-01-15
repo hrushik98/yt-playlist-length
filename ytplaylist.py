@@ -51,5 +51,5 @@ if st.button("Go"):
 
 
     except Exception as e:
-        st.write("Please enter a valid YouTube Playlist URL")
+        st.warn("Please enter a valid YouTube Playlist URL")
 
