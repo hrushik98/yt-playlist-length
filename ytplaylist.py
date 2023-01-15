@@ -32,7 +32,7 @@ if st.button("Go"):
         
         st.write("Total duration of playlist if played at 1x speed: ")
         st.markdown(f'<span style="background-color: orange; padding: 10px; font-size: 20px; color: white;"> <b><i> {seconds_to_time(total_duration)} </i></b> </span>', unsafe_allow_html=True)
-        st.write("Total duration of playlist if played at 1.2x speed: ")
+        st.write("Total duration of playlist if played at 1.25x speed: ")
         st.markdown(f'<span style="background-color: blue; padding: 10px; font-size: 20px; color: white;"> <b><i> {seconds_to_time(total_duration/1.25)} </i></b> </span>', unsafe_allow_html=True)        
         st.write("Total duration of playlist if played at 1.5x speed: ")
         st.markdown(f'<span style="background-color: teal ; padding: 10px; font-size: 20px; color: white;"> <b><i> {seconds_to_time(total_duration/1.5)} </i></b> </span>', unsafe_allow_html=True)
