@@ -25,8 +25,8 @@ if st.button("Go"):
             minutes = (total_duration % 3600) // 60
             remaining_seconds = total_duration % 60
             hours = round(hours,1)
-            minutes = round(minutes,2)
-            remaining_seconds = round(remaining_seconds,2)
+            minutes = round(minutes,1)
+            remaining_seconds = round(remaining_seconds,1)
             return f"{hours} hours, {minutes} minutes, {remaining_seconds} seconds"
         
         
